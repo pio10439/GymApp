@@ -1,0 +1,161 @@
+Kryteria Projektu
+Język/Framework: React Native
+ 
+1. Architektura aplikacji ✅
+Wyjaśnienie: Aplikacja powinna być zbudowana zgodnie z rekomendowanymi wzorcami architektonicznymi dla React Native, np. Redux, Context API lub MVC, aby zapewnić czytelność kodu, ułatwić testowanie i zarządzanie stanem aplikacji.
+ 
+Dodatkowe kryterium: Studenci powinni być w stanie wyjaśnić wybór wzorca architektonicznego i jego implementację w projekcie.
+ 
+Przydatne materiały:
+Redux: https://redux.js.org/
+Context API: https://react.dev/reference/react/createContext , https://react.dev/learn/passing-data-deeply-with-context
+ 
+2. Obsługa różnych rozmiarów i orientacji ekranu ✅
+Wyjaśnienie: Aplikacja powinna być responsywna i prawidłowo wyświetlać się na różnych urządzeniach z różnymi rozmiarami i orientacjami ekranu.
+ 
+Dodatkowe kryterium: Studenci powinni zastosować odpowiednie praktyki projektowania interfejsu użytkownika, używając Flexbox i względnych jednostek wymiarów, aby zapewnić dobrą użyteczność na urządzeniach iOS i Android.
+ 
+Przydatne materiały:
+Flexbox: https://reactnative.dev/docs/flexbox
+Dimensions API: https://reactnative.dev/docs/dimensions
+React Native Responsive Layout: https://reactnative.dev/docs/height-and-width
+ 
+3. Jakość kodu ✅
+Wyjaśnienie: Kod powinien być czytelny, dobrze zorganizowany i zgodny z konwencjami React i JavaScript/TypeScript.
+ 
+Dodatkowe kryterium: Użycie narzędzi do analizy statycznej kodu, takich jak ESLint i Prettier, do identyfikacji i naprawy potencjalnych problemów.
+ 
+Przydatne materiały:
+ESLint: https://eslint.org/
+Prettier: https://prettier.io/
+Konwencje React: https://github.com/airbnb/javascript/tree/master/react
+ 
+4. Testy jednostkowe ✅
+Wyjaśnienie: Projekt powinien zawierać testy jednostkowe sprawdzające logikę aplikacji, komponenty i funkcje pomocnicze.
+ 
+Dodatkowe kryterium: Kod testów powinien być czytelny i dobrze zorganizowany, a pokrycie testami wysokie.
+ 
+Przydatne materiały:
+Jest: https://jestjs.io/
+React Native Testing Library: https://callstack.github.io/react-native-testing-library/
+React Test Renderer: https://reactjs.org/docs/test-renderer.html
+ 
+5. Dokumentacja kodu i projektu 🛑NA KONIEC🛑
+Wyjaśnienie: Kod źródłowy powinien być odpowiednio skomentowany, a README projektu na GitHubie powinno zawierać instrukcje uruchomienia projektu, zależności, użyte technologie i funkcjonalności.
+ 
+Przydatne materiały:
+JSDoc: https://jsdoc.app/
+Markdown Guide: https://www.markdownguide.org/
+GitHub README Best Practices: https://github.com/othneildrew/Best-README-Template
+ 
+6. Integracja z natywnymi funkcjami urządzenia ✅
+Wyjaśnienie: Aplikacja powinna wykorzystywać co najmniej dwie natywne funkcje urządzenia (np. dostęp do kamery, geolokalizacja, powiadomienia push, akcelerometr, przechowywanie danych).
+ 
+Dodatkowe kryterium: Studenci powinni być w stanie opisać, jakie funkcje zostały wykorzystane i jak zostały zaimplementowane.
+ 
+Przydatne materiały:
+Kamera
+Expo Camera (zalecana dla nowych projektów): https://docs.expo.dev/versions/latest/sdk/camera/
+React Native Vision Camera (nowoczesna alternatywa): https://mrousavy.com/react-native-vision-camera/
+Geolokalizacja
+React Native Community Geolocation: https://github.com/michalchudziak/react-native-geolocation
+Expo Location (łatwiejsze w użyciu): https://docs.expo.dev/versions/latest/sdk/location/
+Push Notifications
+React Native Firebase Messaging (standard branżowy): https://rnfirebase.io/messaging/usage
+Expo Notifications: https://docs.expo.dev/push-notifications/overview/
+Przechowywanie danych
+React Native Async Storage (oficjalnie zalecane): https://react-native-async-storage.github.io/async-storage/
+Expo SecureStore (dla bezpiecznego przechowywania): https://docs.expo.dev/versions/latest/sdk/securestore/
+MMKV (wysokowydajne przechowywanie): https://github.com/mrousavy/react-native-mmkv
+ 
+7. Zarządzanie asynchronicznymi operacjami ✅
+Wyjaśnienie: Aplikacja powinna efektywnie zarządzać operacjami asynchronicznymi, takimi jak zapytania sieciowe, dostęp do bazy danych, z wykorzystaniem Promises, async/await lub bibliotek takich jak Redux-Saga czy Redux-Thunk.
+ 
+Dodatkowe kryterium: Studenci powinni wykazać zrozumienie korzyści płynących z asynchroniczności i sposób jej implementacji.
+ 
+Przydatne materiały:
+Promises i Async/Await: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+Redux-Saga: https://redux-saga.js.org/
+Redux-Thunk: https://github.com/reduxjs/redux-thunk
+React Query: https://tanstack.com/query/latest
+ 
+8. Nawigacja między ekranami ✅
+Wyjaśnienie: Aplikacja powinna implementować intuicyjną nawigację między ekranami z wykorzystaniem React Navigation lub podobnej biblioteki.
+ 
+Dodatkowe kryterium: Nawigacja powinna obsługiwać przekazywanie parametrów, głębokie linki i historię nawigacji.
+ 
+Przydatne materiały:
+React Navigation: https://reactnavigation.org/
+Przekazywanie parametrów: https://reactnavigation.org/docs/params/
+Deep Linking: https://reactnavigation.org/docs/deep-linking/
+ 
+9. Wydajność aplikacji ✅
+Wyjaśnienie: Aplikacja powinna być zoptymalizowana pod kątem wydajności, np. poprzez minimalizowanie niepotrzebnych renderowań, efektywne zarządzanie pamięcią i optymalizację list.
+ 
+Dodatkowe kryterium: Studenci mogą użyć React DevTools i innych narzędzi do profilowania i optymalizacji aplikacji.
+ 
+Przydatne materiały:
+React DevTools: https://reactnative.dev/docs/debugging#react-developer-tools
+Flipper: https://fbflipper.com/
+Optymalizacja list: https://reactnative.dev/docs/optimizing-flatlist-configuration
+ 
+10. Styl i UI/UX 
+Wyjaśnienie: Aplikacja powinna mieć spójny, estetyczny interfejs użytkownika z dobrze zaprojektowanym UX.
+ 
+Dodatkowe kryterium: Zastosowanie bibliotek komponentów UI lub własnych stylizowanych komponentów, które zapewniają spójny wygląd i wrażenia użytkownika.
+ 
+Przydatne materiały:
+React Native Paper: https://callstack.github.io/react-native-paper/
+Native Base: https://nativebase.io/
+Styled Components: https://styled-components.com/
+ 
+11. Obsługa stanu aplikacji ✅
+Wyjaśnienie: Aplikacja powinna efektywnie zarządzać globalnym stanem z wykorzystaniem odpowiedniej biblioteki lub wzorca (Redux, Context API, MobX).
+ 
+Dodatkowe kryterium: Studenci powinni uzasadnić wybór rozwiązania do zarządzania stanem i zaprezentować jego zalety.
+ 
+Przydatne materiały:
+Redux: https://redux.js.org/
+Context API: https://react.dev/reference/react/createContext , https://react.dev/learn/passing-data-deeply-with-context
+MobX: https://mobx.js.org/README.html
+ 
+12. Obsługa błędów i sytuacji wyjątkowych ✅
+Wyjaśnienie: Aplikacja powinna odpowiednio obsługiwać błędy, takie jak problemy z połączeniem sieciowym, nieoczekiwane odpowiedzi API czy błędy podczas działania aplikacji.
+ 
+Dodatkowe kryterium: Implementacja mechanizmów odzyskiwania po błędach i informowania użytkownika o problemach w przyjazny sposób.
+ 
+Przydatne materiały:
+Error Boundaries: https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary
+Obsługa błędów w React Native: https://reactnative.dev/docs/debugging
+ 
+13. Tryb offline ✅
+Wyjaśnienie: Aplikacja powinna oferować podstawową funkcjonalność nawet bez dostępu do internetu, wykorzystując lokalne przechowywanie danych.
+ 
+Dodatkowe kryterium: Implementacja mechanizmu synchronizacji danych po przywróceniu połączenia z internetem.
+ 
+Przydatne materiały:
+AsyncStorage: https://react-native-async-storage.github.io/async-storage/ 
+Redux Persist: https://github.com/rt2zz/redux-persist (Wciąż aktywne repozytorium, ale zalecane jest używanie z Redux Toolkit: https://redux-toolkit.js.org/usage/usage-guide#use-with-redux-persist)
+Realm: https://www.mongodb.com/docs/realm/sdk/react-native/
+ 
+14. Bezpieczeństwo ✅
+Wyjaśnienie: Aplikacja powinna przestrzegać podstawowych zasad bezpieczeństwa, takich jak bezpieczne przechowywanie wrażliwych danych, zabezpieczanie połączeń API i walidacja danych wejściowych.
+ 
+Dodatkowe kryterium: Studenci powinni opisać zastosowane mechanizmy bezpieczeństwa i wykazać zrozumienie potencjalnych zagrożeń.
+ 
+Przydatne materiały:
+React Native Security Best Practices: https://reactnative.dev/docs/security
+Secure Storage: https://github.com/oblador/react-native-keychain
+ 
+15. Deployment i budowanie aplikacji
+Wyjaśnienie: Studenci powinni być w stanie zbudować wersję produkcyjną aplikacji (.apk dla Android lub .ipa dla iOS) i przygotować ją do dystrybucji.
+ 
+Dodatkowe kryterium: Dokumentacja procesu budowania i publikacji aplikacji.
+ 
+Przydatne materiały:
+Przygotowanie do publikacji (Android): https://reactnative.dev/docs/signed-apk-android
+Przygotowanie do publikacji (iOS): https://reactnative.dev/docs/publishing-to-app-store
+CI/CD dla React Native: https://github.com/react-native-community/ci-sample
+Redux - A JS library for predictable and maintainable global state management | Redux
+A JS library for predictable and maintainable global state management
+ 

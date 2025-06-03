@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "GymApp",
+    "slug": "GymApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+      "NSLocationWhenInUseUsageDescription": "We need access to your location to show your training locations",
+      "NSLocationAlwaysUsageDescription": "We need access to your location to show your training locations"
+  }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+    }    ,
+    "plugins": [
+      [
+        "expo-location",{
+          "locationAlwaysAndWhenInUsePermission": "Allow Gym App to use your location.",
+          "locationWhenInUsePermission": "Allow Gym App to use your location."
+        }
+      ],
+      ["expo-notifications"]
+    ]
+
+
+  }
+}
