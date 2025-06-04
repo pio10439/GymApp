@@ -36,6 +36,16 @@ export default function SettingScreen() {
       </View>
     );
   }
+  const inputTheme = {
+    roundness: 8,
+    colors: {
+      text: "#000",
+      placeholder: "#BDBDBD",
+      primary: "black",
+      outline: "rgb(88, 87, 87)",
+      background: "#fff",
+    },
+  };
 
   const [height, setHeight] = useState(userData.height);
   const [weight, setWeight] = useState(userData.weight);
@@ -104,6 +114,7 @@ export default function SettingScreen() {
         onChangeText={setHeight}
         keyboardType="decimal-pad"
         testID="height-input"
+        theme={inputTheme}
       />
       <TextInput
         style={styles.input}
@@ -113,6 +124,7 @@ export default function SettingScreen() {
         keyboardType="decimal-pad"
         mode="outlined"
         testID="weight-input"
+        theme={inputTheme}
       />
       <TextInput
         style={styles.input}
@@ -122,6 +134,7 @@ export default function SettingScreen() {
         keyboardType="numeric"
         mode="outlined"
         testID="age-input"
+        theme={inputTheme}
       />
       <TextInput
         style={styles.input}
@@ -130,6 +143,7 @@ export default function SettingScreen() {
         onChangeText={setGoal}
         mode="outlined"
         testID="goal-input"
+        theme={inputTheme}
       />
       <View style={styles.buttonContainer}>
         <Button mode="contained" onPress={saveProfile} style={styles.button}>
@@ -164,6 +178,7 @@ const styles = StyleSheet.create({
   button: {
     marginTop: 7,
     borderRadius: 8,
+    backgroundColor: "rgba(0, 0, 0, 0.43)",
   },
   buttonContainer: {
     marginTop: 10,

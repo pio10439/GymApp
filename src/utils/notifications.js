@@ -53,7 +53,7 @@ export const sendTrainingsNotification = async (training) => {
     await Notifications.scheduleNotificationAsync({
       content: {
         title: "Training saved, good job 💪🏻",
-        body: `${training.title} (${training.exercises.length} exercises) have been saved`,
+        body: `${training.title}(${training.exercises.length} exercises) have been saved`,
       },
       trigger: null,
     });

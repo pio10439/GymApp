@@ -42,12 +42,12 @@ export default function AuthScreen() {
       placeholder: "#BDBDBD",
       primary: "9E9E9E",
       outline: "rgba(255, 255, 255, 0.4)",
-      background: "transparent",
+      background: "transarent",
     },
   };
   const dynamicStyles = StyleSheet.create({
     title: {
-      fontSize: width > 400 ? 32 : 24,
+      fontSize: width > 400 ? 28 : 24,
       marginBottom: width > 400 ? 24 : 16,
     },
     card: {
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: "bold",
     textAlign: "center",
-    marginBottom: 16,
+    marginBottom: 18,
     color: "rgba(0, 0, 0, 0.8)",
   },
   input: {

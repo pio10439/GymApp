@@ -1,0 +1,18 @@
+Platforma: iOS  
+Metoda budowania: EAS Build 
+iOS wymaga aktywnego konta Apple Developer (99 USD/rok 😐)
+1. Inicjalizacja EAS Build: npx eas init
+2. Plik 'eas.json' konfiguacja
+{
+  "cli": {
+    "version": ">= 3.0.0"
+  },
+  "build": {
+    "ios": {
+      "releaseChannel": "production",
+      "developmentClient": false
+    }
+  }
+}
+3. rozpoczecie budowania dla IOS: npx eas build --platform ios
+

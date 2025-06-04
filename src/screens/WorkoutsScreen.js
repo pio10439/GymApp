@@ -30,6 +30,16 @@ export default function WorkoutsScreen() {
       backgroundColor: "#f2f4f7",
     },
   });
+  const inputTheme = {
+    roundness: 8,
+    colors: {
+      text: "#000",
+      placeholder: "#BDBDBD",
+      primary: "black",
+      outline: "rgb(88, 87, 87)",
+      background: "#fff",
+    },
+  };
 
   const valideInput = () => {
     if (!trainingTitle.trim()) {
@@ -123,6 +133,7 @@ export default function WorkoutsScreen() {
         label="Write training title"
         keyboardType="default"
         testID="Write_training_title"
+        theme={inputTheme}
       />
       <Text variant="labelLarge" style={styles.label}>
         Add exercise:
@@ -136,11 +147,12 @@ export default function WorkoutsScreen() {
           label="Enter exercise"
           keyboardType="default"
           testID="Enter_exercise"
+          theme={inputTheme}
         />
         <Button
           mode="contained"
           onPress={addExercise}
-          style={{ marginLeft: 8 }}
+          style={{ marginLeft: 8, backgroundColor: "rgba(0, 0, 0, 0.43)" }}
           testID="Add"
         >
           Add
@@ -183,7 +195,7 @@ export default function WorkoutsScreen() {
       <Button
         mode="contained"
         onPress={saveTraining}
-        style={{ marginVertical: 10 }}
+        style={{ marginVertical: 10, backgroundColor: "rgba(0, 0, 0, 0.43)" }}
       >
         {" "}
         {editMode ? "Save changes" : "Save training"}
@@ -199,6 +211,7 @@ export default function WorkoutsScreen() {
                 <View style={{ flexDirection: "row" }}>
                   <IconButton
                     icon="share-variant"
+                    iconColor="green"
                     onPress={() => shareTraining(item)}
                   />
                   <IconButton
@@ -254,7 +267,6 @@ const styles = StyleSheet.create({
   exerciseInputContainer: {
     flexDirection: "row",
     alignItems: "center",
-
     marginBottom: 8,
   },
   exerciseRow: {

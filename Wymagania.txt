@@ -40,7 +40,7 @@ Jest: https://jestjs.io/
 React Native Testing Library: https://callstack.github.io/react-native-testing-library/
 React Test Renderer: https://reactjs.org/docs/test-renderer.html
  
-5. Dokumentacja kodu i projektu 🛑NA KONIEC🛑
+5. Dokumentacja kodu i projektu 
 Wyjaśnienie: Kod źródłowy powinien być odpowiednio skomentowany, a README projektu na GitHubie powinno zawierać instrukcje uruchomienia projektu, zależności, użyte technologie i funkcjonalności.
  
 Przydatne materiały:
@@ -99,7 +99,7 @@ React DevTools: https://reactnative.dev/docs/debugging#react-developer-tools
 Flipper: https://fbflipper.com/
 Optymalizacja list: https://reactnative.dev/docs/optimizing-flatlist-configuration
  
-10. Styl i UI/UX 
+10. Styl i UI/UX ✅
 Wyjaśnienie: Aplikacja powinna mieć spójny, estetyczny interfejs użytkownika z dobrze zaprojektowanym UX.
  
 Dodatkowe kryterium: Zastosowanie bibliotek komponentów UI lub własnych stylizowanych komponentów, które zapewniają spójny wygląd i wrażenia użytkownika.
@@ -147,7 +147,7 @@ Przydatne materiały:
 React Native Security Best Practices: https://reactnative.dev/docs/security
 Secure Storage: https://github.com/oblador/react-native-keychain
  
-15. Deployment i budowanie aplikacji
+15. Deployment i budowanie aplikacji 5️⃣0️⃣/5️⃣0️⃣
 Wyjaśnienie: Studenci powinni być w stanie zbudować wersję produkcyjną aplikacji (.apk dla Android lub .ipa dla iOS) i przygotować ją do dystrybucji.
  
 Dodatkowe kryterium: Dokumentacja procesu budowania i publikacji aplikacji.

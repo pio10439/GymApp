@@ -38,8 +38,8 @@ function MainTabs() {
             <MaterialCommunityIcons name={iconName} size={size} color={color} />
           );
         },
-        tabBarActiveTintColor: "tomato",
-        tabBarInactiveTintColor: "gray",
+        tabBarActiveTintColor: "rgb(0, 0, 0)",
+        tabBarInactiveTintColor: "rgba(159, 158, 158, 0.8)",
       })}
     >
       <Tab.Screen

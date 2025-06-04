@@ -79,7 +79,7 @@ export default function ProfileScreen() {
 
   const delPhoto = (uri) => {
     setTimeout(() => {
-      Alert.alert("Delete photo", "Ale you sure to delete this photo ? ", [
+      Alert.alert("Delete photo", "Are you sure to delete this photo ? ", [
         { text: "Cancel", style: "cancel" },
         {
           text: "Delete",
@@ -183,6 +183,7 @@ const styles = StyleSheet.create({
   button: {
     marginVertical: 2,
     borderRadius: 8,
+    backgroundColor: "rgba(0, 0, 0, 0.43)",
   },
   photoTitle: {
     fontSize: 16,
